@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм» [![Build status][travis-image]][travis-url]
 
 * Студент: [Виталий Житник](https://up.htmlacademy.ru/javascript/17/user/233919).
-* Наставник: `Неизвестно`.
+* Наставник: `Кексобот`.
 
 ---
 
