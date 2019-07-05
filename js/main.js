@@ -95,5 +95,3 @@ var insertPhotoOnPage = function(array) {
 
 // отрисовка на странице
 insertPhotoOnPage(createPhotos());
-
-console.log('test');
