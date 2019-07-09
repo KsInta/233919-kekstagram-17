@@ -94,4 +94,4 @@ var insertPhotoOnPage = function (array) {
 };
 
 // отрисовка на странице
-insertPhotoOnPage(createPhotos());
+insertPhotoOnPage(createPhotos(PHOTOS_AMOUNT));
