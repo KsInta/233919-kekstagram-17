@@ -13,12 +13,12 @@ var pictureBlock = document.querySelector('.pictures');
 var photoTemplate = document.querySelector('#picture').content.querySelector('.picture');
 
 // случайное число в интервале
-var getRandomNumber = function (min, max) {
+var getRandomNumber = function(min, max) {
   return Math.floor(Math.random() * (max + 1 - min)) + min;
 };
 
 // новый массив на основе существующего
-var getRandomArray = function (parentArray, min_length, max_length) {
+var getRandomArray = function(parentArray, min_length, max_length) {
   var arrayCopy = parentArray.slice();
   var newArray = [ ];
   var newArrayLength = getRandomNumber(min_length, max_length);
@@ -31,7 +31,7 @@ var getRandomArray = function (parentArray, min_length, max_length) {
 };
 
 // случайный элемент массива
-var getRandomArrayElement = function (array) {
+var getRandomArrayElement = function(array) {
   var randomElement = array[getRandomNumber(0, array.length - 1)];
 
   return randomElement;
@@ -55,7 +55,7 @@ var createComments = function(comments, names) {
 }
 
 // создание массива фотографий
-var createPhotos = function (photosAmount) {
+var createPhotos = function(photosAmount) {
   var photosArray = [ ];
 
   for (var i = 1; i <= PHOTOS_AMOUNT; i++) {
